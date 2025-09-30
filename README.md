@@ -13,9 +13,20 @@ This repository uses [uv](https://docs.astral.sh/uv/) for dependency management.
 ### Git LFS
 This repository uses Git Large File Storage to store images, videos, and USD content. To ensure a frictionless process, make sure you have it installed before cloning the repository.
 
-**Install:**
+**Install:** 
+
+*(You only need to do this once per machine)*
 ```
 git lfs install
+```
+
+If you cloned this repo before installing LFS, you can download all LFS to properly configure your repo.
+
+**Download LFS files:** 
+
+*(You only need to do this once for this repo)* 
+```
+git lfs pull
 ```
 
 ## How to Build
@@ -23,7 +34,7 @@ git lfs install
 1. `uv run python -m http.server 8000 -d docs/build/html/`
 1. In a web browser, open `http://localhost:8000`
 
-## Have an Idea for a New Example or new content?
+## Have an Idea for a New Example or New Content?
 Ideas for new content that can help other developers are always welcome. Please [create a new issue](https://github.com/NVIDIA-Omniverse/LearnOpenUSD/issues) describing the type of new content you are requesting and put [New Request] at the end of your title. Someone from the NVIDIA team or OpenUSD community will pick it up. If you can contribute it yourself, even better!
 
 ## Find a Typo or an Error?
