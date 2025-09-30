@@ -30,8 +30,8 @@ git lfs pull
 ```
 
 ## How to Build
-1. `uv run sphinx-build -M html docs/source/ docs/build/`
-1. `uv run python -m http.server 8000 -d docs/build/html/`
+1. `uv run sphinx-build -M html docs/ docs/_build/`
+1. `uv run python -m http.server 8000 -d docs/_build/html/`
 1. In a web browser, open `http://localhost:8000`
 
 ## Have an Idea for a New Example or New Content?
